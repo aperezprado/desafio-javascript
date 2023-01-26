@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+$font-family-base: 'Roboto Condensed', sans-serif;
+
+$primary: #337ab7;;
+$secondary: #5bc0de;
+$success: #5cb85c;
+$info: #337ab7;
+$warning: #f0ad4e;
+$danger: #d9534f;
+$light:rgb(226, 225, 225);
+$dark: black;
+$white:white;
+
+$theme-colors:(
+    "primary":$primary,
+    "secondary":$secondary,
+    "success":$success,
+    "info":$info,
+    "warning":$warning,
+    "danger":$danger,
+    "light":$light,
+    "dark":$dark,
+);
+    
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+.font-weight-bold{
+    font-weight: bold;
+}
+.card-img-top{
+    @extend .card-img-top;
+    width:55%;
+    display:block;
+    margin: 0 auto;
+}
+#color-laptop {
+    width: 20px;
+    height: 20px;
+    background-color: #000;
+}
